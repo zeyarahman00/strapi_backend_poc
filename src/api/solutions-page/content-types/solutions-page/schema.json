@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "solutions_pages",
+  "info": {
+    "singularName": "solutions-page",
+    "pluralName": "solutions-pages",
+    "displayName": "SolutionsPage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderTitle": {
+      "type": "string"
+    },
+    "HeaderDescription": {
+      "type": "text"
+    },
+    "headerImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
